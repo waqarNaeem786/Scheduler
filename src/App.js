@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import "./styles.css";
-
+import Modal from "./Modal";
 export default function App() {
+  const [isopen, setIsOpen] = useState("false");
   return (
     <div>
       <ul>
@@ -31,45 +32,84 @@ export default function App() {
       </div>
       <div className="main">
         <div className="button">
-          <button></button>
-          <button></button>
-          <button></button>
-          <button></button>
-          <button></button>
-          <button></button>
-          <button></button>
-          <button></button>
-          <button></button>
-          <button></button>
-          <button></button>
-          <button></button>
-          <button></button>
-          <button></button>
-          <button></button>
-          <button></button>
-          <button></button>
-          <button></button>
-          <button></button>
-          <button></button>
-          <button></button>
-          <button></button>
-          <button></button>
-          <button></button>
-          <button></button>
-          <button></button>
-          <button></button>
-          <button></button>
-          <button></button>
-          <button></button>
-          <button></button>
-          <button></button>
-          <button></button>
-          <button></button>
-          <button></button>
-          <button></button>
-          <button></button>
-          <button></button>
-          <button></button>
+          <Modal open={isopen} onClose={() => setIsOpen(false)} />
+          <button onClick={() => setIsOpen(true)}></button>
+
+          <button onClick={() => setIsOpen(true)}></button>
+
+          <button onClick={() => setIsOpen(true)}></button>
+
+          <button onClick={() => setIsOpen(true)}></button>
+
+          <button onClick={() => setIsOpen(true)}></button>
+
+          <button onClick={() => setIsOpen(true)}></button>
+
+          <button onClick={() => setIsOpen(true)}></button>
+
+          <button onClick={() => setIsOpen(true)}></button>
+
+          <button onClick={() => setIsOpen(true)}></button>
+
+          <button onClick={() => setIsOpen(true)}></button>
+
+          <button onClick={() => setIsOpen(true)}></button>
+
+          <button onClick={() => setIsOpen(true)}></button>
+
+          <button onClick={() => setIsOpen(true)}></button>
+
+          <button onClick={() => setIsOpen(true)}></button>
+
+          <button onClick={() => setIsOpen(true)}></button>
+
+          <button onClick={() => setIsOpen(true)}></button>
+
+          <button onClick={() => setIsOpen(true)}></button>
+
+          <button onClick={() => setIsOpen(true)}></button>
+
+          <button onClick={() => setIsOpen(true)}></button>
+
+          <button onClick={() => setIsOpen(true)}></button>
+
+          <button onClick={() => setIsOpen(true)}></button>
+
+          <button onClick={() => setIsOpen(true)}></button>
+
+          <button onClick={() => setIsOpen(true)}></button>
+
+          <button onClick={() => setIsOpen(true)}></button>
+
+          <button onClick={() => setIsOpen(true)}></button>
+
+          <button onClick={() => setIsOpen(true)}></button>
+
+          <button onClick={() => setIsOpen(true)}></button>
+
+          <button onClick={() => setIsOpen(true)}></button>
+
+          <button onClick={() => setIsOpen(true)}></button>
+
+          <button onClick={() => setIsOpen(true)}></button>
+
+          <button onClick={() => setIsOpen(true)}></button>
+
+          <button onClick={() => setIsOpen(true)}></button>
+
+          <button onClick={() => setIsOpen(true)}></button>
+
+          <button onClick={() => setIsOpen(true)}></button>
+
+          <button onClick={() => setIsOpen(true)}></button>
+
+          <button onClick={() => setIsOpen(true)}></button>
+
+          <button onClick={() => setIsOpen(true)}></button>
+
+          <button onClick={() => setIsOpen(true)}></button>
+
+          <button onClick={() => setIsOpen(true)}></button>
         </div>
       </div>
     </div>
